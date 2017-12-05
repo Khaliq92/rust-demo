@@ -1,0 +1,6 @@
+[package]
+name = "farenheit2celcius"
+version = "0.1.0"
+authors = ["Stephen Kelly <stevekm@users.noreply.github.com>"]
+
+[dependencies]
