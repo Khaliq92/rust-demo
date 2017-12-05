@@ -1,0 +1,8 @@
+[package]
+name = "rust-df-test"
+version = "0.1.0"
+authors = ["Stephen Kelly <stevekm@users.noreply.github.com>"]
+
+[dependencies]
+utah = { path = "../utah"} # my dev fork with TSV
+# utah="0.1.2"

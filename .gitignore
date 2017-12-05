@@ -1,0 +1,6 @@
+utah
+*target/*
+ncbiRefSeq.txt
+old_Cargo.toml
+*target/*
+*/target/*
