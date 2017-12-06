@@ -10,5 +10,6 @@ set -x
 } && {
     gunzip ncbiRefSeq.txt.gz
 } && {
-    curl -LO 'https://raw.githubusercontent.com/BurntSushi/rust-csv/master/examples/data/uspop.csv'
+    # curl -LO 'https://raw.githubusercontent.com/BurntSushi/rust-csv/master/examples/data/uspop.csv'
+    echo ""
 }
