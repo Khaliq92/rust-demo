@@ -48,6 +48,8 @@ rustc src/main.rs
 echo '*target/*' >> .gitignore
 ```
 
+- add Rust language support to Atom; https://github.com/zargony/atom-language-rust (install from within Atom preferences)
+
 # Resources
 
 https://doc.rust-lang.org/book/second-edition/
