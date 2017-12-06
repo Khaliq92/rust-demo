@@ -1,6 +1,53 @@
 # rust-demo
 demo Rust programs
 
+# Notes
+
+- Install Rust
+
+```
+curl https://sh.rustup.rs -sSf | sh
+source $HOME/.cargo/env
+```
+
+- New project
+
+```
+cargo new --bin my_project
+cd my_project
+```
+
+- Compile project
+
+```
+cargo build
+```
+
+- Compile & Run
+
+```
+cargo run
+```
+
+- Run
+
+```
+target/debug/my_project
+```
+
+- Compile & run `.rs` file directly without `cargo`
+
+```
+rustc src/main.rs
+./main
+```
+
+- ignore `target` dir from git
+
+```
+echo '*target/*' >> .gitignore
+```
+
 # Resources
 
 https://doc.rust-lang.org/book/second-edition/
